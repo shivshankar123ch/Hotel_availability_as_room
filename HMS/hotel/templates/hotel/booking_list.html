@@ -8,7 +8,9 @@
         <title>Booking_list</title>
     </head>
     <body>
-       {{booking_list}}
+       {%for booking in booking_list%}
+        <h2>{{booking}}</h2>
+        {%endfor%}
         
         <script src="" async defer></script>
     </body>

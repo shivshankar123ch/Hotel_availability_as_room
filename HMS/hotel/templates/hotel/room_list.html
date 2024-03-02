@@ -8,7 +8,9 @@
         <title>room_list</title>
     </head>
     <body>
-       {{room_list}}
+        {%for room in room_list%}
+        <h1>{{room}}</h1>
+       {%endfor %}
         
         <script src="" async defer></script>
     </body>
